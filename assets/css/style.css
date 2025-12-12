@@ -1,4 +1,20 @@
 
+/* SECTION DE VIDEO PRESENTATION */
+.video_presentation{
+    padding: 4vw;
+}
+.video_presentation_elements{
+    display: flex;
+}
+.video_presentation video{
+    width: 50vw;
+    height: auto;
+}
+.video_presentation_elements p{
+    margin-top: 4vh;
+    padding: 4vw;
+    max-width: 35vw;
+}
 /* SECTION DE NOTRE EQUIPE */
 .notre-equipe {
     padding: 2rem;
