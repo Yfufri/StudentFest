@@ -89,7 +89,7 @@
         <img class="membre-image" src="assets/images/default-membre.png">
         <div class="membre-text">
             <div class="membre-name">Hugo BARDIN</div>
-            <p>Developpeur</p>
+            <p>DEV</p>
         </div>
     </div>
 
@@ -97,7 +97,7 @@
         <img class="membre-image" src="assets/images/default-membre.png">
         <div class="membre-text">
             <div class="membre-name">Octave ROUFFAUD</div>
-            <p>Developpeur</p>
+            <p>DEV</p>
         </div>
     </div>
 
@@ -105,7 +105,7 @@
         <img class="membre-image" src="assets/images/default-membre.png">
         <div class="membre-text">
             <div class="membre-name">Kenan GUERIN</div>
-            <p>Fraise</p>
+            <p>DEV FRAISE</p>
         </div>
     </div>
 
@@ -113,7 +113,7 @@
         <img class="membre-image" src="assets/images/default-membre.png">
         <div class="membre-text">
             <div class="membre-name">Théo LANNIER</div>
-            <p>Developpeur</p>
+            <p>DEV</p>
         </div>
     </div>
 
