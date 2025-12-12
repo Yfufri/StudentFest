@@ -1,5 +1,46 @@
+/* SECTION PAGE */
+* {
+    padding: 0;
+    margin: 0;
+}
 
+html {
+    position: relative;
+    background-color: #3A3A3A;
+}
 
+body {
+    color: #FFD700;
+    font-family: "Iceberg";
+}
+
+h1, h2 {
+    font-family: "Stalinist One";
+}
+
+/* SECTION HEADER */
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(58, 58, 58, 0.5);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+/* SECTION DE VIDEO PRESENTATION */
 .video_presentation{
     padding: 4vw;
 }
@@ -14,4 +55,53 @@
     margin-top: 4vh;
     padding: 4vw;
     max-width: 35vw;    
+}
+
+/* SECTION DE NOTRE EQUIPE */
+.notre-equipe {
+    padding: 2rem;
+}
+
+.notre-equipe h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.notre-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.membre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+
+.membre-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.membre-text {
+    width: 100%;
+}
+
+.membre-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.membre-text p {
+    color: #000;
+    margin: 0;
 }

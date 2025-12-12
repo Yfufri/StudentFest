@@ -1,5 +1,5 @@
 <section class="video_presentation">
-    <h3> Vidéo de présentation </h3>
+    <h3>Vidéo de présentation</h3>
     <div class="video_presentation_elements">
         <video controls>
             <source src="assets/videos/presentation.mp4" type="video/mp4">
