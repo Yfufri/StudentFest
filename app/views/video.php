@@ -1,9 +1,9 @@
-<link href="video.css" rel="stylesheet" />
+<link href="assets/css/style.css" rel="stylesheet" />
 <div class="video_presentation">
     <h3> Vidéo de présentation </h3>
     <div class="video_presentation_elements">
         <video controls>
-            <source src="" type="video/mp4">
+            <source src="assets/videos/presentation.mp4" type="video/mp4">
             La vidéo n'arrive pas à charger
         </video>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
