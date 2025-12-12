@@ -1,2 +1,2 @@
 <?php
-?> HELLO WORLD
+require "app/controllers/homecontroller.php";
