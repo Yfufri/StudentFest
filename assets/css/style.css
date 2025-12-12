@@ -1,0 +1,49 @@
+
+/* SECTION DE NOTRE EQUIPE */
+.notre-equipe {
+    padding: 2rem;
+}
+
+.notre-equipe h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.notre-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.membre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+
+.membre-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.membre-text {
+    width: 100%;
+}
+
+.membre-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.membre-text p {
+    color: #000;
+    margin: 0;
+}
