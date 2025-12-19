@@ -1,21 +1,21 @@
 <header>
-    <a href="#">
+    <a href="<?php echo $UrlOfPage?>">
         <h1>Student𝅘𝅥𝅮Fest</h1>
     </a>
     
     <nav>
         <ul>
             <li>
-                <a href="#">Carte</a>
+                <a href="<?php echo $UrlOfPage . "carte" ?>">Carte</a>
             <li>
             <li>
-                <a href="#">Phototèque</a>
+                <a href="<?php echo $UrlOfPage . "photo" ?>">Phototèque</a>
             <li>
             <li>
-                <a href="#">Menu du jour</a>
+                <a href="<?php echo $UrlOfPage . "menu" ?>">Menu du jour</a>
             <li>
             <li>
-                <a href="#">Contact</a>
+                <a href="<?php echo $UrlOfPage . "cpntact" ?>">Contact</a>
             <li>
         </ul>
     </nav>
