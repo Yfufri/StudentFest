@@ -15,7 +15,7 @@
                 <a href="<?php echo $UrlOfPage . "menu" ?>">Menu du jour</a>
             <li>
             <li>
-                <a href="<?php echo $UrlOfPage . "cpntact" ?>">Contact</a>
+                <a href="<?php echo $UrlOfPage . "contact" ?>">Contact</a>
             <li>
         </ul>
     </nav>
