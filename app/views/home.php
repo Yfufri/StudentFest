@@ -1,3 +1,10 @@
+<section class="video_fullscreen">
+    <div class="fullscreen_welcome">
+        <h2>StudentFest</h2>
+        <p>Votre festival étudiant.</p>
+    </div>
+</section>
+
 <section class="video_presentation">
     <h3>Vidéo de présentation</h3>
     <div class="video_presentation_elements">
