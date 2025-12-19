@@ -6,7 +6,7 @@
     <nav>
         <ul>
             <li>
-                <a href="<?php echo $UrlOfPage . "carte" ?>">Carte</a>
+                <a href="<?php echo $UrlOfPage . "localisation" ?>">Carte</a>
             <li>
             <li>
                 <a href="<?php echo $UrlOfPage . "photo" ?>">Phototèque</a>
