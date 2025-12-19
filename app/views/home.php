@@ -148,6 +148,6 @@
             </td>
         </tr>
     </table-val>
-    <a href ="valeur.php">Voir plus</a>
+    <a href ="?page=valeur">Voir plus</a>
 </div>
 </section>
