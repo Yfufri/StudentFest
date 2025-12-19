@@ -104,3 +104,50 @@ nav ul li {
 .membre-text p {
     margin: 0;
 }
+
+.h1-valeurs {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.valeurs-container {
+    padding: 2rem;
+    background-color: #2C2C2C;
+    border-radius: 8px;
+    margin: 2rem;
+}
+
+.val-intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.val-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.val-table td {
+    border: 1px solid #444;
+    padding: 1rem;
+    vertical-align: top;
+    width: 33%;
+    text-align: center;
+}
+
+.val-table img {
+    max-width: 100px;
+    margin-top: 1rem;
+
+}
+
+.val-table h2 {
+    margin-bottom: 1rem;
+}
+
+.val-table p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
