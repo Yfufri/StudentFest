@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
 <section class="video_presentation">
     <h3>Vidéo de présentation</h3>
     <div class="video_presentation_elements">
@@ -5,8 +8,38 @@
             <source src="assets/videos/presentation.mp4" type="video/mp4">
             La vidéo n'arrive pas à charger
         </video>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.</p>
     </div>
+</section>
+
+<section class="localisation">
+    <div id="map"></div>
+    <a class="voirplus" href="localisation">Voir Plus</a>
+
+    <!-- JS Leaflet -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+        // Coordonnées demandées
+        const lat = 47.59167670382576;
+        const lng = -2.1544686654790404;
+
+        // Initialisation de la carte centrée sur le point
+        const map = L.map('map').setView([lat, lng], 11);
+
+        // Tuiles OpenStreetMap
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        // Marqueur sur les coordonnées
+        L.marker([lat, lng])
+            .addTo(map)
+            .bindPopup('Mon point');
+    </script>
 </section>
 
 <section class="notre-equipe">
