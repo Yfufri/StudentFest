@@ -168,32 +168,6 @@ header a:hover {
     display: inline-block;
     }
 
-<<<<<<< HEAD
-/* SECTION PHOTOTÈQUE */
-.photo-container {
-    padding: 2rem;
-}
-
-.photo-intro {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.photo-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.photo-table td {
-    padding: 1rem;
-    text-align: center;
-}
-
-.photo-table img {
-    width: 100%;
-    height: auto;
-=======
-
 /* SECTION CARTE */
 .localisation {
     display: flex;
@@ -253,5 +227,29 @@ header a:hover {
 .direction{
     margin-right : 20%;
     margin-left: 20%;
->>>>>>> 18be41037e4a76fad59f1cae4a43b2346e7ea874
+}
+
+/* SECTION PHOTOTÈQUE */
+.photo-container {
+    padding: 2rem;
+}
+
+.photo-intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.photo-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.photo-table td {
+    padding: 1rem;
+    text-align: center;
+}
+
+.photo-table img {
+    width: 100%;
+    height: auto;
 }
