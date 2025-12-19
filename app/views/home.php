@@ -1,6 +1,6 @@
-<section class="video_fullscreen">
+<section class="fullscreen_container">
     <div class="fullscreen_welcome">
-        <h2>StudentFest</h2>
+        <h2>Student𝅘𝅥𝅮Fest</h2>
         <p>Votre festival étudiant.</p>
     </div>
 </section>
