@@ -9,8 +9,10 @@ switch ($action) {
         break;
     case 'localisation':
         require "app/controllers/localisationcontroller.php";
+        break;
     case 'valeur':
         require "app/controllers/valcontroller.php";
+        break;
 }
 
 
