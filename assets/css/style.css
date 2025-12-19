@@ -142,3 +142,20 @@ header a:hover {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
+/* SECTION CONTACT */
+.contact{
+    padding: 3vw;
+    
+}
+.contact p{
+    margin-top: 1vw;
+}
+.contact form{
+    margin-top: 2vw;
+}
+.contact input {
+    background-color : #9A9A9A;
+    color : #ffffff;
+    padding: 10px;
+    display: inline-block;
+    }
