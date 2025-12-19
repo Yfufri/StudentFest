@@ -1,6 +1,9 @@
-<section class="video_fullscreen">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<section class="fullscreen_container">
     <div class="fullscreen_welcome">
-        <h2>StudentFest</h2>
+        <h2>Student𝅘𝅥𝅮Fest</h2>
         <p>Votre festival étudiant.</p>
     </div>
 </section>
@@ -14,6 +17,34 @@
         </video>
         <p>Viens vibrer au rythme de la musique au cœur du Morbihan ! Pensé par et pour les étudiants, ce festival réunit des artistes émergents et des talents locaux dans une ambiance festive, conviviale et accessible à tous. Concerts live, découvertes musicales et moments de partage t’attendent pour célébrer la musique, la jeunesse et l’énergie étudiante dans un cadre breton unique.</p>
     </div>
+</section>
+
+<section class="localisation">
+    <div id="map"></div>
+    <a class="voirplus" href="localisation">Voir Plus</a>
+
+    <!-- JS Leaflet -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+        // Coordonnées demandées
+        const lat = 47.59167670382576;
+        const lng = -2.1544686654790404;
+
+        // Initialisation de la carte centrée sur le point
+        const map = L.map('map').setView([lat, lng], 11);
+
+        // Tuiles OpenStreetMap
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        // Marqueur sur les coordonnées
+        L.marker([lat, lng])
+            .addTo(map)
+            .bindPopup('Mon point');
+    </script>
 </section>
 
 <section class="notre-equipe">
@@ -156,5 +187,5 @@
         </table-val>
         <a href="?page=valeur">Voir plus</a>
     </div>
-    
+
 </section>
