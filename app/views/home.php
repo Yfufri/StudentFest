@@ -5,7 +5,7 @@
             <source src="assets/videos/presentation.mp4" type="video/mp4">
             La vidéo n'arrive pas à charger
         </video>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Viens vibrer au rythme de la musique au cœur du Morbihan ! Pensé par et pour les étudiants, ce festival réunit des artistes émergents et des talents locaux dans une ambiance festive, conviviale et accessible à tous. Concerts live, découvertes musicales et moments de partage t’attendent pour célébrer la musique, la jeunesse et l’énergie étudiante dans un cadre breton unique.</p>
     </div>
 </section>
 
