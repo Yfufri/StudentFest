@@ -12,4 +12,8 @@ switch ($action) {
     case 'valeur':
         require "app/controllers/valcontroller.php";
 }
+
+
+$UrlOfPage = "http://localhost/StudentFest/";
+
 ?>

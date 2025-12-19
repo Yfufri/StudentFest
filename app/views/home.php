@@ -1,6 +1,13 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
+<section class="fullscreen_container">
+    <div class="fullscreen_welcome">
+        <h2>Student𝅘𝅥𝅮Fest</h2>
+        <p>Votre festival étudiant.</p>
+    </div>
+</section>
+
 <section class="video_presentation">
     <h3>Vidéo de présentation</h3>
     <div class="video_presentation_elements">
@@ -8,9 +15,7 @@
             <source src="assets/videos/presentation.mp4" type="video/mp4">
             La vidéo n'arrive pas à charger
         </video>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.</p>
+        <p>Viens vibrer au rythme de la musique au cœur du Morbihan ! Pensé par et pour les étudiants, ce festival réunit des artistes émergents et des talents locaux dans une ambiance festive, conviviale et accessible à tous. Concerts live, découvertes musicales et moments de partage t’attendent pour célébrer la musique, la jeunesse et l’énergie étudiante dans un cadre breton unique.</p>
     </div>
 </section>
 
@@ -151,4 +156,36 @@
     </div>
 
     <h3>Developpeurs</h3>
+
+    <div>
+        <h1-val>Nos Valeurs</h1-val>
+        <table-val>
+            <tr>
+                <td val1="box">
+                    <h2-val>Tous Ensemble</h2-val>
+                    <p-val>Créer un environnement où chaque étudiant, quelles que soient son origine, sa filière ou ses capacités, se sent bienvenu et peut participer pleinement à l'événement.</p-val>
+                    <img src="assets/valeur1.jpg" alt="image valeur1">
+                </td>
+                <td val2="box">
+                    <h2-val>Montre tes Talents</h2-val>
+                    <p-val>Offrir une plateforme pour que tu puisse exprimer leurs talents artistiques, leurs idées innovantes et leurs passions, encourageant l'originalité et la diversité des formes d'art.</p-val>
+                    <img src="assets/valeur2.png" alt="image valeur2">
+                </td>
+            </tr>
+            <tr>
+                <td val3="box">
+                    <h2-val>Planète Friendly</h2-val>
+                    <p-val>S'engager à minimiser l'impact environnemental du festival (gestion des déchets, des fournisseurs), faisant de la durabilité une priorité.</p-val>
+                    <img src="assets/valeur3.png" alt="image valeur3">
+                </td>
+                <td val4="box">
+                    <h2-val>Qualité de Vie</h2-val>
+                    <p-val>Tout est facile et accessible. Les bénévoles sont là pour faciliter ton expérience dans le festival. Confort et simplicité garantis partout, pour tous.</p-val>
+                    <img src="assets/valeur4.png" alt="image valeur4">
+                </td>
+            </tr>
+        </table-val>
+        <a href="?page=valeur">Voir plus</a>
+    </div>
+
 </section>
