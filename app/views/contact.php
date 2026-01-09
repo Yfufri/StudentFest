@@ -1,4 +1,4 @@
-<div class="contact" id="contact">
+<section class="contact" id="contact">
   <h3> Nous contacter</h3>
   <p> Une question ?Une demande ?N'hésitez pas !</p>
   <form action="#contact" method="POST">
@@ -9,4 +9,4 @@
 
     <input type="submit" value="Envoyer ">
   </form> 
-</div>
+</section>

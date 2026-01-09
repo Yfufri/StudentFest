@@ -230,7 +230,7 @@
             </td>
         </tr>
     </table-val>
-        <a href="?page=valeurs">Voir plus</a>
+        <a href="<?php echo $UrlOfPage . "contact" ?>">Voir plus</a>
     </div>
 
 </section>
