@@ -1,13 +1,6 @@
 <?php
-use Dotenv\Dotenv;
 
 require_once 'vendor/autoload.php';
-
-$dotenv = Dotenv::createImmutable(__DIR__);
-$dotenv->load();
-
-require_once 'models/bddconnect.php';
-$conn = openCon();
 
 $action = $_GET['action'] ?? null;
 $UrlOfPage = "http://localhost/StudentFest/";
