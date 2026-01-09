@@ -4,16 +4,16 @@
                 <p>Nos réseaux</p>
                 <ul>
                     <li>
-                        <a href="https://google.com">Facebook</a>
+                        <a href="https://www.facebook.com ">Facebook</a>
                     </li>
                     <li>
-                        <a href="https://google.com">Instagram</a>
+                        <a href="https://www.instagram.com ">Instagram</a>
                     </li>
                     <li>
-                        <a href="https://google.com">X (Twitter)</a>
+                        <a href="https://www.x.com">X (Twitter)</a>
                     </li>
                     <li>
-                        <a href="https://google.com">LinkedIn</a>
+                        <a href="https://www.linkedin.com">LinkedIn</a>
                     </li>
                 </ul>
             </div>
