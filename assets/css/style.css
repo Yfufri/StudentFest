@@ -389,3 +389,52 @@ footer {
     font-size: 1.2em;
     margin-top: 8px;
 }
+
+/*remerciement*/
+.thanks-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.thanks-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #FE019A;
+}
+
+.thanks-intro {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.thanks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.thanks-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thanks-card-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #FE019A;
+}
+
+.thanks-card-content {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}

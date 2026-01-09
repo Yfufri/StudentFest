@@ -176,7 +176,6 @@
         </div>
     </div>
 
-</section>
 <section class="notre-equipe">
 
 
@@ -231,7 +230,6 @@
             <p>DEV FRAISE</p>
         </div>
     </div>
-
     <div class="membre">
         <img class="membre-image" src="assets/images/default-membre.png">
         <div class="membre-text">
@@ -239,6 +237,58 @@
             <p>DEV</p>
         </div>
     </div>
+</section>
+    <section class="thanks-section">
+        <h2 class="thanks-title">Remerciements</h2>
+
+        <p class="thanks-intro">
+            Ce festival n'aurait pas été possible sans l'engagement et le dévouement de nombreuses personnes et organisations. Nous tenons à remercier chaleureusement tous ceux qui ont contribué à la réussite de cet événement.
+        </p>
+
+        <div class="thanks-grid">
+            <div class="thanks-card">
+                <div class="thanks-card-title">Organisation</div>
+                <div class="thanks-card-content">
+                    Marc LAPIERRE et Jean LAURENT pour leur coordination exceptionnelle et leur passion sans faille
+                </div>
+            </div>
+
+            <div class="thanks-card">
+                <div class="thanks-card-title">Administration</div>
+                <div class="thanks-card-content">
+                    Le Département du Morbihan et ses services pour leur soutien administratif et leur accompagnement
+                </div>
+            </div>
+
+            <div class="thanks-card">
+                <div class="thanks-card-title">Sécurité</div>
+                <div class="thanks-card-content">
+                    Les pompiers de la région pour leur présence rassurante et leur professionnalisme
+                </div>
+            </div>
+
+            <div class="thanks-card">
+                <div class="thanks-card-title">Partenaires</div>
+                <div class="thanks-card-content">
+                    Toutes les associations locales et bénévoles présents sur place pour leur aide précieuse
+                </div>
+            </div>
+
+            <div class="thanks-card">
+                <div class="thanks-card-title">Prestataires</div>
+                <div class="thanks-card-content">
+                    Les techniciens, artistes et tous les professionnels qui ont donné vie à ce festival
+                </div>
+            </div>
+
+            <div class="thanks-card">
+                <div class="thanks-card-title">Festivaliers</div>
+                <div class="thanks-card-content">
+                    Vous, le public, pour votre enthousiasme et votre énergie qui font vivre cet événement
+                </div>
+            </div>
+
+
 </section>
 
 <section>
