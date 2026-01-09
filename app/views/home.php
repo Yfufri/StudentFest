@@ -92,10 +92,53 @@
         </div>
     </div>
 
+    <div class="membre">
+        <img class="membre-image" src="assets/images/default-membre.png">
+        <div class="membre-text">
+            <div class="membre-name">Aude LARUE</div>
+            <p>VENDEUR</p>
+        </div>
+    </div>
+
+    <div class="membre">
+        <img class="membre-image" src="assets/images/default-membre.png">
+        <div class="membre-text">
+            <div class="membre-name">Adrien NOUVEAU</div>
+            <p>VENDEUR</p>
+        </div>
+    </div>
+
     <h3>Cuisiniers</h3>
 </section>
 <section class="notre-equipe">
-    <h3>Agents de Sécurité</h3>
+    <h3>Equipe Technique</h3>
+    <div class="membre">
+        <img class="membre-image" src="assets/images/default-membre.png">
+        <div class="membre-text">
+            <div class="membre-name">Flora MAYER</div>
+            <p>INGENIEUR SON</p>
+        </div>
+    </div>
+
+    <div class="membre">
+        <img class="membre-image" src="assets/images/default-membre.png">
+        <div class="membre-text">
+            <div class="membre-name">Michel COTEAUX</div>
+            <p>REGISSEUR LUMIERE</p>
+        </div>
+    </div>
+
+    <div class="membre">
+        <img class="membre-image" src="assets/images/default-membre.png">
+        <div class="membre-text">
+            <div class="membre-name">Christian Traie</div>
+            <p>BACKLINER</p>
+        </div>
+    </div>
+
+</section>
+<section class="notre-equipe">
+
 
     <div class="membre">
         <img class="membre-image" src="assets/images/default-membre.png">
@@ -120,9 +163,11 @@
             <p>AGENT SECURITE</p>
         </div>
     </div>
+    <h3>Agents de Sécurité</h3>
 </section>
 <section class="notre-equipe">
 
+    <h3>Developpeurs</h3>
     <div class="membre">
         <img class="membre-image" src="assets/images/default-membre.png">
         <div class="membre-text">
@@ -155,7 +200,7 @@
         </div>
     </div>
 
-    <h3>Developpeurs</h3>
+
 
     <div>
     <h3>Nos Valeurs</h3>
