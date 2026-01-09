@@ -153,9 +153,9 @@ header a:hover {
 /* SECTION CONTACT */
 .contact{
     padding: 3vw;
-
 }
 .contact p{
+    text-align: center;
     margin-top: 1vw;
 }
 .contact form{
@@ -167,6 +167,15 @@ header a:hover {
     padding: 10px;
     display: inline-block;
     }
+.contact .container-form{
+    padding: 30px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 /* SECTION CARTE */
 .localisation {
