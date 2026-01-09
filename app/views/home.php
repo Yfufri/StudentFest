@@ -241,7 +241,7 @@
     </div>
 </section>
 
-<!-- <section>
+<section>
     <h3>Nos valeurs</h3>
     <div class="valGrid">
         <div class="val">
@@ -254,24 +254,24 @@
         <div class="val">
             <img src="assets/images/valeurs/valeur.webp" alt="image valeur1">
             <div class="imageDescription">
-                <h4>Tous Ensemble</h4>
-                <p>Créer un environnement où chaque étudiant, quelles que soient son origine, sa filière ou ses capacités, se sent bienvenu et peut participer pleinement à l'événement.</p>
+                <h4>Montre tes Talents</h4>
+                <p>Offrir une plateforme pour que tu puisse exprimer leurs talents artistiques, leurs idées innovantes et leurs passions, encourageant l'originalité et la diversité des formes d'art.</p>
             </div>
         </div>
         <div class="val">
             <img src="assets/images/valeurs/valeur.webp" alt="image valeur1">
             <div class="imageDescription">
-                <h4>Tous Ensemble</h4>
-                <p>Créer un environnement où chaque étudiant, quelles que soient son origine, sa filière ou ses capacités, se sent bienvenu et peut participer pleinement à l'événement.</p>
+                <h4>Planète Friendly</h4>
+                <p>S'engager à minimiser l'impact environnemental du festival (gestion des déchets, des fournisseurs), faisant de la durabilité une priorité.</p>
             </div>
         </div>
         <div class="val">
             <img src="assets/images/valeurs/valeur.webp" alt="image valeur1">
             <div class="imageDescription">
-                <h4>Tous Ensemble</h4>
-                <p>Créer un environnement où chaque étudiant, quelles que soient son origine, sa filière ou ses capacités, se sent bienvenu et peut participer pleinement à l'événement.</p>
+                <h4>Qualité de Vie</h4>
+                <p>Tout est facile et accessible. Les bénévoles sont là pour faciliter ton expérience dans le festival. Confort et simplicité garantis partout, pour tous.</p>
             </div>
         </div>
     </div>
-    <a href="?page=valeurs">Voir plus</a>
-</section> -->
+    <a href="<?php echo $UrlOfPage . "views/valeur.php" ?>">Voir plus</a>
+</section>
