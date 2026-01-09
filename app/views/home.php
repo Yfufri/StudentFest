@@ -270,7 +270,7 @@
             </td>
         </tr>
     </table-val>
-        <a href="<?php echo $UrlOfPage . "contact" ?>">Voir plus</a>
+        <a href="<?php echo $UrlOfPage . "valeurs" ?>">Voir plus</a>
     </div>
 
 </section>
