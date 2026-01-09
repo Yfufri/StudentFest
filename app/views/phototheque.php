@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phototèque - StudentFest</title>
-    <link rel="stylesheet" href="assets/css/valeur.css">
-</head>
-<body>
-    <?php include 'header.php'; ?>
-    
-    <main class="photo-container">
-        <section class="photo-intro">
-            <h1>Phototèque</h1>
-            <p>Découvrez les moments inoubliables des différentes dates du festival</p>
-        </section>
-
+<section class="phototheque" id="phototheque">
+    <h3>Phototèque</h3>
+    <p>Découvrez les moments inoubliables des différentes dates du festival</p>
+    <form action="/photo" method="POST">
         <table class="photo-table">
             <tr>
                 <td class="photo1">
@@ -43,8 +30,4 @@
                 </td>
             </tr>
         </table>
-    </main>
-
-    <?php include 'footer.php'; ?>
-</body>
-</html>
+</section>
