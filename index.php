@@ -1,6 +1,7 @@
 <?php
 
 $action = $_GET['action'] ?? null;
+$UrlOfPage = "http://localhost/StudentFest/";
 
 switch ($action) {
     default :
@@ -14,8 +15,4 @@ switch ($action) {
         require "app/controllers/valcontroller.php";
         break;
 }
-
-
-$UrlOfPage = "http://localhost/StudentFest/";
-
 ?>
