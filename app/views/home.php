@@ -47,6 +47,46 @@
     </script>
 </section>
 
+
+<section class="menu-jour">
+    <div class="menu-header">
+        <h1>Menu du Jour</h1>
+        <p class="menu-date">Vendredi 10 Juillet 2026</p>
+    </div>
+
+    <div class="menu-content">
+
+        <div class="menu-section">
+            <h2>Plats</h2>
+            <div class="menu-item">
+                <div class="item-name">Galette Saucisse + Frite</div>
+                <div class="item-price">4,50 €</div>
+            </div>
+            <div class="menu-item">
+                <div class="item-name">Chicken Burger + Frite</div>
+                <div class="item-price">8,50 €</div>
+            </div>
+            <div class="menu-item">
+                <div class="item-name">Burger végétarien + Frite</div>
+                <div class="item-price">8,50 €</div>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <div class="item-name">Tarte Tatin</div>
+                <div class="item-price">2,50 €</div>
+            </div>
+            <div class="menu-item">
+                <div class="item-name">Crepe au sucre</div>
+                <div class="item-price">1,50 €</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section class="notre-equipe">
     <h3>Organisateurs</h3>
 
